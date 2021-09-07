@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{7CE8C6EA-3849-35AA-8C00-F7ED172569B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{875917DF-6049-305A-A7C7-78C245A69E0A} = {875917DF-6049-305A-A7C7-78C245A69E0A}
+		{81536E4B-02D4-32DD-B67B-7B6D068961BB} = {81536E4B-02D4-32DD-B67B-7B6D068961BB}
+		{456EC0FA-2EAE-310C-9955-7577028E0014} = {456EC0FA-2EAE-310C-9955-7577028E0014}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BodyTrack", "samples\BodyTrack\BodyTrack.vcxproj", "{875917DF-6049-305A-A7C7-78C245A69E0A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{456EC0FA-2EAE-310C-9955-7577028E0014} = {456EC0FA-2EAE-310C-9955-7577028E0014}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FaceTrack", "samples\FaceTrack\FaceTrack.vcxproj", "{81536E4B-02D4-32DD-B67B-7B6D068961BB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{456EC0FA-2EAE-310C-9955-7577028E0014} = {456EC0FA-2EAE-310C-9955-7577028E0014}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{456EC0FA-2EAE-310C-9955-7577028E0014}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CE8C6EA-3849-35AA-8C00-F7ED172569B2}.Release|x64.ActiveCfg = Release|x64
+		{875917DF-6049-305A-A7C7-78C245A69E0A}.Release|x64.ActiveCfg = Release|x64
+		{875917DF-6049-305A-A7C7-78C245A69E0A}.Release|x64.Build.0 = Release|x64
+		{81536E4B-02D4-32DD-B67B-7B6D068961BB}.Release|x64.ActiveCfg = Release|x64
+		{81536E4B-02D4-32DD-B67B-7B6D068961BB}.Release|x64.Build.0 = Release|x64
+		{456EC0FA-2EAE-310C-9955-7577028E0014}.Release|x64.ActiveCfg = Release|x64
+		{456EC0FA-2EAE-310C-9955-7577028E0014}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE8A083F-587D-3926-9477-CA24E9D9138E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

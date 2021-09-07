@@ -1,0 +1,4 @@
+C:/Users/Rock Solid/source/repos/MAXINE-AR-SDK/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Rock Solid/source/repos/MAXINE-AR-SDK/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Rock Solid/source/repos/MAXINE-AR-SDK/build/samples/FaceTrack/CMakeFiles/FaceTrack.dir
+C:/Users/Rock Solid/source/repos/MAXINE-AR-SDK/build/samples/BodyTrack/CMakeFiles/BodyTrack.dir

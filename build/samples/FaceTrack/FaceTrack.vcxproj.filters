@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Rock Solid\source\repos\MAXINE-AR-SDK\samples\FaceTrack\FaceEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Rock Solid\source\repos\MAXINE-AR-SDK\samples\FaceTrack\FaceTrack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Rock Solid\source\repos\MAXINE-AR-SDK\samples\utils\RenderingUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Rock Solid\source\repos\MAXINE-AR-SDK\samples\utils\FeatureVertexName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Rock Solid\source\repos\MAXINE-AR-SDK\nvar\src\nvARProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Rock Solid\source\repos\MAXINE-AR-SDK\nvar\src\nvCVImageProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Rock Solid\source\repos\MAXINE-AR-SDK\samples\utils\FeatureVertexName.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Rock Solid\source\repos\MAXINE-AR-SDK\samples\FaceTrack\FaceEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Rock Solid\source\repos\MAXINE-AR-SDK\samples\FaceTrack\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1E9F355B-05E5-3157-8CBB-2D7DFFDAF426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{86B94159-6D1D-353A-A2E5-DD7FF6B6B277}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
